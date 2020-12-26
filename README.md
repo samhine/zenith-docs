@@ -118,7 +118,7 @@ Although rate limiting is built in to Zenith, there are some ways _you_ can limi
 
 - Sam Hine
 
-  - twitter.com/samhine
+  - [twitter.com/samhine](http://twitter.com/samhine)
   - sam.hine27 (at) gmail.com
 
 - Chris Georgiou
