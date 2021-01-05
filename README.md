@@ -75,7 +75,7 @@ Parses match for chosen statistic and returns it for given champion.
 
 **statistic**: `text`, Parses match for chosen statistic and returns it for given champion.
 
-**minute**: `text | undefined`, If included, return statistic for this minute. Not always availible.
+**minute**: `text | undefined`, If included, return statistic for this minute. Not always available.
 
 **Returns**: `text`, Statistic for champion in provided match.
 
@@ -91,7 +91,7 @@ Parses match for chosen statistic and returns it for given summoner.
 
 **statistic**: `text`, Parses match for chosen statistic and returns it for given summoner.
 
-**minute**: `text | undefined`, If included, return statistic for this minute. Not always availible.
+**minute**: `text | undefined`, If included, return statistic for this minute. Not always available.
 
 **Returns**: `text`, Statistic for summoner in provided match.
 
@@ -117,6 +117,12 @@ Although rate limiting is built in to Zenith, there are some ways _you_ can limi
 
 - Once you have gathered data that need not change (or make extra calls to Zenith), copy this data and _paste as value_. This prevents cells from spamming Zenith and consequently the API when that data doesn't actually need to be updated.
 - Limit cell dependancies. This means that you have as few cells as possible waiting for another cell to load. Pass by value wherever possible, rather than by cell.
+
+# Bugs and Feature Request
+
+Please raise and bugs or FRs within the issues section of this repository (https://github.com/samhine/zenith-docs/issues).
+
+Please prefix feature requests with the FR tag (i.e. `FR: Make Zenith generate heatmaps`) and bugs with the BUG tag (i.e. `BUG: Zenith not recognising Teemo as champion`).
 
 # Contributors and Contacts
 
