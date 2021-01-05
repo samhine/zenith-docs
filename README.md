@@ -63,7 +63,7 @@ Summoner list for given match. If side is undefined, all summoners are returned 
 
 **Returns**: `range`, List of summoners for given match.
 
-## getStatForChampion(match_id, champion_name, statistic)
+## getStatForChampion(match_id, champion_name, statistic, minute)
 
 Parses match for chosen statistic and returns it for given champion.
 
@@ -75,9 +75,11 @@ Parses match for chosen statistic and returns it for given champion.
 
 **statistic**: `text`, Parses match for chosen statistic and returns it for given champion.
 
+**minute**: `text | undefined`, If included, return statistic for this minute. Not always availible.
+
 **Returns**: `text`, Statistic for champion in provided match.
 
-## getStatForSummoner(match_id, summoner_name, statistic)
+## getStatForSummoner(match_id, summoner_name, statistic, minute)
 
 Parses match for chosen statistic and returns it for given summoner.
 
@@ -88,6 +90,8 @@ Parses match for chosen statistic and returns it for given summoner.
 **summoner_name**: `text`, Parses match for chosen statistic and returns it for given summoner.
 
 **statistic**: `text`, Parses match for chosen statistic and returns it for given summoner.
+
+**minute**: `text | undefined`, If included, return statistic for this minute. Not always availible.
 
 **Returns**: `text`, Statistic for summoner in provided match.
 
